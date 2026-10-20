@@ -1,0 +1,32 @@
+بيانات وحدة شاشة هافال H9 موديل 2026 — سجل
+(مأخوذة من شاشة "Software and hardware version information" في القائمة الهندسية)
+التاريخ: 2026-10-20
+
+Head unit system version no. : GW35OVAPU1F110301953
+SoC software version no.     : Android_sa8155_v35_p11ovs_jenkins_Mon Nov 3 20:17:57 CST 2025_user
+QNX version                  : 20251103-20-09-46_jenkins@GWM-INT8D-3
+QNX virtual machine version  : 2.0.8651.L202406061446
+ECNR                         : V1.20.6 Release(4105780)
+AVM                          : V0.1.0019.20250606194438
+SomeIP                       : V35XA2R2011130@5c15a22-2024-12-10
+DoIP/UDS                     : 1.0
+
+الاستنتاجات:
+- المعالج: Qualcomm SA8155 (سنابدراغون 8155) — منصة سيارات حديثة وقوية
+- إصدار المنصة: p11 -> الأرجح أندرويد 11
+  (للتأكيد: إعدادات الشاشة -> About -> Android version)
+- تاريخ بناء النظام: 3 نوفمبر 2025
+
+بنود القائمة الهندسية الظاهرة (9 بنود = القائمة الكاملة):
+  Software and hardware version information
+  Play related information
+  HUT related information
+  Car information
+  System log
+  USB update
+  USB mode switching          <- مفتاح طريق الكيبل (Host -> Peripheral)
+  Third party app             <- مدير التطبيقات المضافة (المرشح الأول لحل المطلوب)
+  SecOC/E2E
+
+ملاحظة: بنود Write Configure / Write Vehicle Model / Set Production Mode
+ليست في هذي القائمة — هذي كانت في تطبيق التشخيص، وهي الأخطر. لا تُلمس.
