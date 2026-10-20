@@ -5,7 +5,7 @@ set -uo pipefail
 
 DEST="${DEST:-$HOME/Documents/haval-hut}"
 BASE="https://bassam133.github.io/haval-hut-clean"
-FILES="VEHICLE.txt PROMPT.txt START-HERE.txt hut-pair.sh hut-scan.sh hut-clean.sh hut-restore.sh remove.txt SETUP.md GUIDE.md"
+FILES="CLEAN-SHEET.txt VEHICLE.txt PROMPT.txt START-HERE.txt hut-remote.sh hut-pair.sh hut-scan.sh hut-clean.sh hut-restore.sh remove.txt SETUP.md GUIDE.md"
 
 echo "====================================================="
 echo " Haval HUT toolkit -> $DEST"
