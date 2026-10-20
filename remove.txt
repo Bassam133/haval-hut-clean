@@ -1,0 +1,19 @@
+# Packages to DISABLE on the head unit. One package name per line. '#' starts a comment.
+#
+# HOW TO FILL THIS FILE
+#   1. Run hut-scan.sh and open hut-report-....txt
+#   2. Use the THIRD-PARTY section (that is what "not original" means)
+#   3. Put the packages you decided to remove here - the app LABEL is not the package name:
+#        "HDO Box"  is NOT the package name,  com.hdo.box  would be.
+#      Take the names from the report, never guess them from the icon text.
+#
+# SAFETY - the script refuses the whole run if any line here is protected:
+#   com.android.*  com.gwm*  com.haval*  com.greatwall*  com.google.android.gms/gsf/vending
+#   vendor.*  keyboards  launchers  systemui  telephony  bluetooth  hvac  settings  CAN
+#
+# Nothing is uninstalled. Everything here is reversible with hut-restore.sh.
+
+# ---- candidates to confirm against YOUR report (uncomment only what is there) ----
+# com.qiyi.video
+# com.hdo.box
+# com.example.dramalive
